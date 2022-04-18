@@ -188,10 +188,10 @@ div:hover {
     width: 100%;
   }
 
-  .index_header{
-font-size: 20px;
-margin-top: 50px;
-margin-left: 15px;
+  .index_header {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
   }
   .item {
     display: block;
@@ -203,7 +203,7 @@ margin-left: 15px;
   .item_index {
     width: 100%;
     display: flex;
-    flex-direction: row;
+
     justify-content: center;
   }
 
@@ -212,10 +212,11 @@ margin-left: 15px;
     display: block;
   }
 
-  .nav_index {
-    display: block;
-    width: 100%;
+  .ul_index {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 20px;
   }
 
   .textodiadelpadre {
@@ -301,13 +302,7 @@ margin-left: 15px;
     display: block;
     flex-direction: row;
   }
-  .ul_index {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-  a{
+  a {
     font-size: 15px;
   }
   .derechos {
@@ -317,46 +312,282 @@ margin-left: 15px;
 
 @media only screen and (min-width: 468px) and (max-width: 1023px) {
   nav {
+    background-image: url(../Multimedias/especialpadre.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+  }
+  .item_index {
+    display: flex;
+    flex-direction: row;
+  }
+  .item {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 23%;
+    gap: 5%;
+  }
+
+  .index_header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-right : 50%;
+    width: max-content;
+    text-align: center;
+  }
+  .titulo_index {
+    width: min-content;
+    display: block;
+  }
+  .textodiadelpadre {
+    display: block;
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .contenido_hombre {
+    text-align: center;
+    max-width: min-content;
+    text-align: center;
+    margin-left: 25%;
+    font-style: oblique;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .section_index {
+    text-align: center;
+    background-image: linear-gradient(white, blue);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fotohombre {
+    width: 208px;
+    justify-content: center;
+    transform: skew(10deg, 10deg);
+    margin-top: 25px;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 100%;
+    }
+    25% {
+      opacity: 75%;
+    }
+    50% {
+      opacity: 50%;
+      width: 250px;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+
+  .tituloredes {
+    font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+.redes{
+  display: flex;
+flex-direction: row;
+}
+
+  .face {
+    width: 40px;
+  }
+  .insta {
+    width: 40px;
+  }
+  .correo {
+    width: 40px;
+  }
+  .wpp {
+    width: 40px;
+  }
+  .div_index_footer {
+    background-image: url(../Multimedias/oro.jpg);
+    background-size: cover;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+  }
+
+  .derechos {
+    text-align: justify;
+  }
+} 
+
+@media only screen and (min-width: 1024px) {
+  nav {
     display: flex;
     background-image: url(../Multimedias/especialpadre.jpg);
     background-size: cover;
     width: 100%;
-    text-align: center;
+  }
+  .item_index {
+    display: flex;
+    flex-direction: row;
   }
   .item {
-    
     display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 40%;
+    gap: 20%;
+  }
+
+  .index_header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-right : 50%;
+    width: max-content;
+    text-align: center;
+  }
+  .titulo_index {
     width: min-content;
-   flex-direction: row;
-   
+    display: block;
+  }
+  .textodiadelpadre {
+    display: block;
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .contenido_hombre {
+    text-align: center;
+    max-width: min-content;
+    text-align: center;
+    margin-left: 25%;
+    font-style: oblique;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .section_index {
+    text-align: center;
+    background-image: linear-gradient(white, blue);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fotohombre {
+    width: 208px;
+    justify-content: center;
+    transform: skew(10deg, 10deg);
+    margin-top: 25px;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 100%;
+    }
+    25% {
+      opacity: 75%;
+    }
+    50% {
+      opacity: 50%;
+      width: 250px;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+
+  .tituloredes {
+    font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+.redes{
+  display: flex;
+flex-direction: row;
+}
+
+  .face {
+    width: 40px;
+  }
+  .insta {
+    width: 40px;
+  }
+  .correo {
+    width: 40px;
+  }
+  .wpp {
+    width: 40px;
+  }
+  .div_index_footer {
+    background-image: url(../Multimedias/oro.jpg);
+    background-size: cover;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+  }
+
+  .derechos {
+    text-align: justify;
+  }
+}
+
+/*---------------------RESPONSIVE-QUIENESSOMOS---------------------*/
+
+@media only screen and (max-width: 468px) {
+  nav {
+    background-image: url(../Multimedias/especialpadre.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+  }
+  .index_header {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  .item {
+    display: block;
+    text-align: center;
+    width: max-content;
+    margin-left: 55px;
   }
 
   .item_index {
-  
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
     width: 100%;
-    text-align: center;
-    
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .titulo_index {
+    width: min-content;
+    display: block;
   }
 
   .ul_index {
     display: flex;
-    
-     width: min-content;
-    
-  }
-  .index_header {
-    text-align: center;
-    display: flex ;
-  }
-
-  .titulo_index {
-    width: max-content;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-
+    gap: 20px;
   }
 
   .textodiadelpadre {
@@ -442,8 +673,7 @@ margin-left: 15px;
     display: block;
     flex-direction: row;
   }
- 
-  a{
+  a {
     font-size: 15px;
   }
   .derechos {
@@ -451,150 +681,122 @@ margin-left: 15px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 468px) and (max-width: 1023px) {
+  nav {
+    background-image: url(../Multimedias/especialpadre.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+  }
   .item_index {
     display: flex;
-    flex-direction: row-reverse;
-    background-image: url(../Multimedias/especialpadre.jpg);
-    background-size: cover;
+    flex-direction: row;
   }
-
-  li {
-    font-size: 17px;
-  }
-
   .item {
     display: flex;
-    text-align: center;
     flex-direction: row;
-    margin-top: 40px;
-    gap: 15px;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 23%;
+    gap: 5%;
   }
 
+  .index_header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-right : 50%;
+    width: max-content;
+    text-align: center;
+  }
   .titulo_index {
-    font-size: 35px;
-    text-align: center;
-    display: block;
     width: min-content;
-    font: cursiva;
-    font-style: italic;
-    margin-top: 80px;
-    max-width: min-content;
-    padding-right: 10px;
-  }
-
-  .nav_index {
-    grid-area: nav;
-    display: flex;
-    height: 200px;
-  }
-
-  .subtitulo {
-    grid-area: subtitulo;
-    text-align: center;
     display: block;
   }
-
-  .subtitulo_indumentariayaccesorios {
-    grid-area: subtitulo_indumentariayaccesorios;
-    text-align: center;
+  .textodiadelpadre {
     display: block;
-  }
-
-  .contenido_mujer {
-    grid-area: contenido_mujer;
-    text-align: center;
-    max-width: min-content;
     text-align: justify;
+    margin-top: 15px;
   }
-
   .contenido_hombre {
-    grid-area: contenido_hombre;
     text-align: center;
     max-width: min-content;
-    text-align: justify;
-    margin-left: 40px;
-  }
-
-  .contenido_ninos {
-    grid-area: contenido_ninos;
-    text-align: justify;
-    max-width: min-content;
-    margin-bottom: 60px;
-  }
-
-  .contenido_accesorios {
-    grid-area: contenido_accesorios;
-    justify-content: center;
-    max-width: min-content;
-    text-align: justify;
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 25%;
+    font-style: oblique;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
   .section_index {
     text-align: center;
-  }
-
-  .contenedor_index {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    justify-content: space-around;
-    margin-bottom: 18px;
-  }
-
-  .tituloventa {
-    text-align: center;
-  }
-
-  .section_index {
+    background-image: linear-gradient(white, blue);
+    background-size: cover;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
-
-  .imagen1 {
-    width: 140px;
-  }
-
   .fotohombre {
     width: 208px;
     justify-content: center;
+    transform: skew(10deg, 10deg);
+    margin-top: 25px;
   }
 
-  .imagen3 {
-    width: 230px;
+  @keyframes aparecer {
+    0% {
+      opacity: 100%;
+    }
+    25% {
+      opacity: 75%;
+    }
+    50% {
+      opacity: 50%;
+      width: 250px;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 0%;
+    }
   }
 
-  .imagen4 {
-    width: 330px;
-  }
-
-  footer {
-    grid-area: footer;
-    background-size: cover;
-  }
-
-  ul {
-    text-align: center;
+  .tituloredes {
+    font-style: oblique;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    text-align: center;
   }
-  .tituloredes {
-    width: min-content;
-  }
+.redes{
+  display: flex;
+flex-direction: row;
+}
+
   .face {
-    width: 50px;
+    width: 40px;
   }
   .insta {
-    width: 50px;
+    width: 40px;
   }
   .correo {
-    width: 50px;
+    width: 40px;
   }
   .wpp {
-    width: 50px;
+    width: 40px;
+  }
+  .div_index_footer {
+    background-image: url(../Multimedias/oro.jpg);
+    background-size: cover;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+  }
+
+  .derechos {
+    text-align: justify;
   }
 }
