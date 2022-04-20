@@ -7,6 +7,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="../Multimedias/logo3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/estilo.css">
     <title>
         Brighterindumentariayaccesorios
@@ -14,12 +15,12 @@
 </head>
 
 <body class="body_quienessomos">
-    <div class="contenedorprincipal">
-        <header>
+    <div class="contenedorprincipal container-fluid ">
+        <header class="header_contac row">
             <div class="item_quienes">
-                <nav class="nav_quienes">
+                <nav class="nav_contac row">
 
-                    <Ul class="item">
+                    <Ul class="item col-lg-12 col-md-12 col-sm-4">
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="../Paginas/quienessomos.html">¿Quienes somos?</a></li>
                         <li><a href="../Paginas/nuestrosproductos.html">Nuestros productos</a></li>
@@ -27,7 +28,7 @@
                         <li><a href="../Paginas/realizarpedidos.html">Realizar pedido</a></li>
                     </Ul>
 
-                    <div class="quienes_header">
+                    <div class="quienes_header col-lg-12 col-md-12 col-sm-12">
                         <h1 class="titulo_quienes">
                             Brighter RyM
                         </h1>
@@ -36,12 +37,12 @@
             </div>
 
         </header>
-        <section class="section_quienes">
+        <section class="section_quienes row">
             <div class="contenedor_quienes">
-                <div class="subtitulo_quienes">
+                <div class="subtitulo_quienes col-lg-12 col-md-12 col-sm-12">
                     <h2>¿Quienes somos?</h2>
                 </div>
-                <div class="text_quienes">
+                <div class="text_quienes col-lg-12 col-md-12 col-sm-12">
                     <p>Somos una empresa que se dedicada a la venta de indumentaria y accesorios femeninos, masculinos y
                         niños.
                         <br>
@@ -51,21 +52,21 @@
                         que van a estar disponibles para cualquier consulta o pedidos.
                     </p>
                 </div>
-                <video controls>
+                <video controls class="col-lg-12 col-md-12 col-sm-12">
                     <source src="../Multimedias/publicidad ropa.mp4" type="video/mp4" class="videoquienes">
                 </video>
             </div>
         </section>
 
 
-        <footer>
-            <div class="tituloredes">
+        <footer class="row">
+            <div class="tituloredes col-lg-12 col-md-12 col-sm-12">
                 <h3>
                     No te pierdas las nuevas tendencias...¡Seguinos!
                 </h3>
             </div>
 
-            <div class="redes">
+            <div class="redes redes col-lg-12 col-md-12 col-sm-12">
                 <ul>
                     <li><a href="https://es-la.facebook.com/" target="_blank"> <img src="../Multimedias/iconofb2.png"
                                 alt="facebook-logo" class="face"></a></li>
@@ -80,11 +81,13 @@
 
                 </ul>
             </div>
+            <div class="derechos">
             <p class="derechos">Todos los derechos reservados</p>
-
+        </div>
 
         </footer>
     </div>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
