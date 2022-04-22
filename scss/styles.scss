@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header .titulo { 
+    width: 300px;
+  }
+  
+  header {width: 100%;
+  }
+  
+  
+  
+  nav {
+    background-image: url(../Multimedias/valentine-day-romantic-background-free-photo.jpg);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  
+  li{
+    list-style: none;
+    font-size: 20PX;
+  }
+  
+  .fondoquienes{
+    background-image: url(../Multimedias/fondomarm.jpg);
+  }
+  
+  
+  a{color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #ff0000;
+  }
+  
+  .subtitulo {
+             font: corsiva;
+             font-size: 25px;
+             color: #000;
+             font-style: italic;
+             text-align: center;
+             display: block;
+  }
+  
+  .subtitulo_indumentariayaccesorios{
+       display:block;
+       color: #000;
+       text-align: center;
+  }
+  
+  .face{
+    width: 70px;
+  }
+  
+  .insta{
+    width: 62px;
+  }
+  
+  .redes{
+    width: 68px;
+  }
+  
+  .contenedor {
+    width: 100%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: justify;
+  }
+  
+  
+  
+  .contenido1 {
+    display: block;
+    max-width: 20%;
+    margin-left: 20px;}
+  
+   
+  
+  ul{
+    display: flex;
+  }
+  
+  li {
+    display: block;
+  }
+  
+  
+  .titulo {
+    display: block;
+    width: max-content;
+    text-align: center;
+    font-size: 55px;
+    font-family: initial;
+    font-style: italic;
+  }
+  
+  .formulario {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-bottom: 100px;
+    font-size: 20px;
+  }
+  
+  .fondo{
+    background-image: url(../Multimedias/fondocontac.jpg);
+    height: 580px;
+    background-size: cover;
+  }
+  
+  
+  .titulo3{
+    text-align: center;
+   font-size: 45px;
+   color: #000;
+   height: 110px;
+  }
+  
+  .maps{
+    text-align: center;
+    display: inline-block;
+    width: 700px;
+  }
+  
+  footer{
+    background-image: url(../Multimedias/oro.jpg);
+    background-size: cover;
+    width: 100%;
+    
+  }
+  
+  .tituloredes{
+    text-align: center;
+    font-size: 25px;
+    display: inline;
+    font-style: oblique;
+  }
+  .redes{
+    text-align: center;
+    font-size: 82px;
+    display: inline;
+  }
+  
+  .contenedor_quienessomos{
+    text-align: center;
+  }
+  
+  .contenedor_contactos{
+    text-align: center;
+  }
+  
+  .contenedor_realizarpedidos{
+  text-align: center;
+  }
+  
+  section{
+    background-image: url(../Multimedias/fondomarm.jpg);
+    width: 100%;
+    align-content: center;
+    }
+  
+  .section_nuestrosproductos{
+  width: 100%;
+  }
+  
+  
+  div:hover{
+    border: solid 1px blue;
+  }
+  
+  .contenedor_nuestrosproductos{
+   
+    grid-template-rows: min-content;
+    row-gap: 15px;
+    
+  }
+  
+  
+  
+  .titulo_nuestrosproductos{
+    
+    text-align: center;
+  }
+  
+  
+  .topraso{
+  
+    grid-template-rows: min-content;
+    text-align: center;
+  }
+  .imgtopraso{
+     width: 290px;
+  }
+  
+  .topdeport{
+    
+    text-align: center;
+  }
+  .topdeportivo{
+    width: 280px;   
+  }
+  
+  .moños{
+  
+    text-align: center;
+    
+  }
+  .imgmoños{
+    width: 400px;
+  }
+  
+  .portacosmeticos{
+  
+    text-align: center;
+  }
+  .imgporta{
+    width: 380px;
+  }
+  
+  .body{
+    text-align: center;
+   
+  }
+  .imgbody{
+    width: 365px;
+  }
+  
+  
+  .imagen1{
+    width: 200px;
+  }
+  
+  .fotohombre{
+    width: 200px;
+     justify-content: center;
+  }
+  
+  .imagen3{
+    width: 200px;
+  }
+  
+  .imagen4{
+    width: 250px;
+  }
+  
+  .contenido  {
+    max-width: min-content;
+    justify-content: center;
+  
+  }
+  
+  
+  .titulo_cont {
+    width: max-content;
+    display: block;
+  color: darkcyan;
+  }
+  
+  .titulo{
+      width: max-content;
+      display: block;
+    color: darkcyan;
+  
+  }
+  .nav_contac{
+    width: 100%;
+  }
+  
+  .nav
+  {width: 100%;}
+  
+  .item{
+    display: flex;
+    width: max-content;
+    padding: 10px;  
+  }
+  
+  .header_contac{
+    width: 100%;
+    background-image: url(../Multimedias/valentine-day-romantic-background-free-photo.jpg);
+  background: cover;
+  }
+  
+  
+  li {
+    padding: 5px;
+  
+  }
+  
+  a{
+    color: blue;
+  }
